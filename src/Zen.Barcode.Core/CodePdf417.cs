@@ -1165,7 +1165,7 @@ namespace Zen.Barcode
 		private Image PaintCodeInternal()
 		{
 			_bitColumns = START_CODE_SIZE * (_codeColumns + 3) + STOP_SIZE;
-			_outImage = new Bitmap(_bitColumns, _codeRows, PixelFormat.Format24bppRgb);
+			_outImage = new Bitmap(_bitColumns, _codeRows);
 			int _codePtr = 0;
 
 			for (int row = 0; row < _codeRows; ++row)
