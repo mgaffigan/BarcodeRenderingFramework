@@ -164,12 +164,6 @@
     <Compile Include="TestPlanModel.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Zen.Barcode.Core\Zen.Barcode.Core.csproj">
-      <Project>{77484B9B-7400-4C6E-A997-CAB7FA7F9B1E}</Project>
-      <Name>Zen.Barcode.Core</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
       <Visible>False</Visible>
       <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
