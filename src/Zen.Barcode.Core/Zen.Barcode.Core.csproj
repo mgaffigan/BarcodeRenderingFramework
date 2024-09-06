@@ -3,6 +3,8 @@
     <TargetFramework>net8.0</TargetFramework>
     <RootNamespace>Zen.Barcode</RootNamespace>
     <AssemblyName>Zen.Barcode.Core</AssemblyName>
+    <VersionPrefix>8.0.0</VersionPrefix>
+    <VersionSuffix>preview1</VersionSuffix>
   </PropertyGroup>
   <PropertyGroup>
     <Title>Zen Barcode Core</Title>
